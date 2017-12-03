@@ -39,7 +39,6 @@ security:
     resource:
       user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current
 
-spring:
  # Redis配置
  redis:
   host: localhost
